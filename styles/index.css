@@ -1,0 +1,76 @@
+.navbar-index {
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.navbar-index a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  margin: 0 0.6rem;
+}
+
+.navbar-index h3 {
+  font-size: 2rem;
+}
+
+.infocard {
+  width: 60%;
+  display: flex;
+  margin: 7rem auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1C1227;
+  padding: 2rem 2rem;
+  border-radius: 0.75rem;
+}
+
+.cardImg img {
+  object-fit: cover;
+  border-radius: 0.75rem;
+  width: 100% !important;
+  height: auto !important;
+  margin-right: 2rem !important;
+}
+
+.info {
+  width: 60%;
+}
+
+.info h4 {
+  font-size: 1.2rem;
+  word-spacing: 0.2rem;
+  font-weight: 400;
+}
+
+.info p {
+  font-size: 1.08rem;
+  font-weight: 700;
+}
+
+.socialsContainer {
+  display: flex;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+  margin-top: 0.2rem;
+  margin-right: 1rem;
+}
+
+.socials a {
+  text-decoration: none;
+  color: white;
+  margin-left: 0.4rem;
+  margin-right: 0.6rem;
+}
+
+.socials img {
+  width: 2rem !important;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(1deg) brightness(113%) contrast(105%);
+}
