@@ -11,6 +11,12 @@
   color: white;
   font-size: 1.3rem;
   margin: 0 0.6rem;
+  transition: all 0.25s;
+}
+
+.navbar-index a:hover {
+  color: #E42575;
+  text-decoration:underline;
 }
 
 .navbar-index h3 {
@@ -66,6 +72,21 @@
 .socials a {
   text-decoration: none;
   color: white;
+  display: flex;
+  align-items: center;
+  background-color: #09080d;
+  border-radius: 1rem;
+  padding: 0.75rem 1.25rem;
+  transition: 0.25s;
+}
+
+.socials a:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0 0.5rem 0.25rem -0.25rem #E42575;
+
+}
+
+.socials a span {
   margin-left: 0.4rem;
   margin-right: 0.6rem;
 }

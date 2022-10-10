@@ -1,8 +1,7 @@
 import React from 'react'
-import Navbar0 from 'components/Navbar0'
+import Navbar0 from 'components/navbarIndex'
 import Image from 'next/image'
 import Head from 'next/head'
-import Link from 'next/link'
 
 export default function Index() {
   return (
@@ -30,10 +29,14 @@ export default function Index() {
           <p>- Relational Databasing + Active Record</p>
           <div className="socialsContainer">
             <div className="socials">
-              <Image src="/images/linkedin.png" alt="linkedin" width={50} height={50} /><a href="https://www.linkedin.com/in/taelee3/" target="_blank" >Linkedin</a>
+              <a href="https://www.linkedin.com/in/taelee3/" target="_blank" >
+                <Image src="/images/linkedin.png" alt="linkedin" width={50} height={50} /><span>Linkedin</span>
+              </a>
             </div>
             <div className="socials">
-              <Image src="/images/github.png" alt="github" width={50} height={50} /><a href="https://github.com/taeleenz38" target="_blank" >GitHub</a>
+              <a href="https://github.com/taeleenz38" target="_blank" >
+                <Image src="/images/github.png" alt="github" width={50} height={50} /><span>GitHub</span>
+              </a>
             </div>
           </div>
         </div>

@@ -1,0 +1,42 @@
+.card-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1C1227;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.projectCard img {
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.projectCard a {
+  transition: 0.2s;
+  border-radius: 1rem;
+  height: 500px;
+  padding: 0;
+}
+
+.projectCard a:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0 0.5rem 0.25rem -0.25rem #E42575;
+}
+
+.projectCard h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.projectCard p {
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+  padding: 0;
+}
