@@ -19,3 +19,23 @@
   font-size: 1.75rem;
   margin-top: 0;
 }
+
+@media (max-width: 768px) {
+  .infocard-2 h3 {
+    font-size: 1.3rem;
+  }
+
+  .infocard-2 p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 455px) {
+  .infocard-2 h3 {
+    font-size: 1.15rem;
+  }
+
+  .infocard-2 p {
+    font-size: 0.75rem;
+  }
+}

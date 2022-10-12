@@ -21,7 +21,7 @@
 
 .navbar h3 {
   font-size: 2rem;
-  margin-left: 0.6rem;
+  margin-left: 1rem;
 }
 
 .navbar img {
@@ -35,10 +35,36 @@
 
 @media (max-width: 768px) {
   .navbar a {
+    margin: 0 0.3rem;
     font-size: 1rem;
   }
 
   .navbar {
-    padding: 0.25rem 1rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar h3 {
+    font-size: 1.5rem;
+    margin-left: 0.6rem;
+  }
+
+  .navbar img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+
+@media (max-width: 455px) {
+  .navbar a {
+    margin: 0 0.3rem;
+    font-size: 0.75rem;
+  }
+
+  .navbar h3 {
+    font-size: 1rem;
+  }
+
+  .navbar {
+    padding: 0.25rem 0.5rem;
   }
 }

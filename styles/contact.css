@@ -1,12 +1,12 @@
 .contactCard {
-  width: 25%;
+  width: 420px;
   display: flex;
   flex-direction: column;
   margin: 5rem auto;
   justify-content: space-between;
   align-items: center;
   background-color: #1C1227;
-  padding: 2rem 2rem;
+  padding: 2rem;
   border-radius: 0.75rem;
 }
 
@@ -20,7 +20,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 90%;
+  width: 310px;
 }
 
 #email {
@@ -32,7 +32,7 @@
   border: 1px solid white;
   background-color: #1C1227;
   padding: 0.5rem;
-  width: 100%;
+  width: 380px;
   color: white;
 }
 
@@ -40,7 +40,7 @@
   margin: 0;
   box-sizing: border-box;
   margin-bottom: 2rem;
-  width: 100%;
+  width: 380px;
   height: 15rem;
   border: 1px solid white;
   background-color: #1C1227;
@@ -63,4 +63,19 @@
   cursor: pointer;
   transform: translateY(-0.2rem);
   box-shadow: 0 0.5rem 0.25rem -0.25rem #E42575;
+}
+
+@media (max-width: 768px) {
+  .contactCard {
+    width: 320px;
+    padding: 1rem;
+  }
+
+  #email {
+    width: 300px;
+  }
+
+  #message {
+    width: 300px;
+  }
 }
