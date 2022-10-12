@@ -30,12 +30,12 @@ export default function Index() {
           <p>- Relational Databasing + Active Record</p>
           <div className="socialsContainer">
             <div className="socials">
-              <a href="https://www.linkedin.com/in/taelee3/" target="_blank" >
+              <a href="https://www.linkedin.com/in/taelee3/" target="_blank" rel="noreferrer">
                 <Image src="/images/linkedin.png" alt="linkedin" width={50} height={50} /><span>Linkedin</span>
               </a>
             </div>
             <div className="socials">
-              <a href="https://github.com/taeleenz38" target="_blank" >
+              <a href="https://github.com/taeleenz38" target="_blank" rel="noreferrer">
                 <Image src="/images/github.png" alt="github" width={50} height={50} /><span>GitHub</span>
               </a>
             </div>
