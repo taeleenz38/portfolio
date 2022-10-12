@@ -1,8 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import Head from 'next/head'
 
-export default function Projectcard({ title, url, path, description, skills }: { title:string, url:string, path:string, description:string, skills:string}) {
+export default function Projectcard({ title, url, path, description, skills }) {
   return (
     <div className='projects'>
       <a href={`${url}`} target="_blank" rel="noreferrer">
