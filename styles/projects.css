@@ -11,6 +11,12 @@
   background-color: #1C1227;
   border-radius: 1rem;
   padding: 2rem;
+  transition: all 0.2s;
+}
+
+.projectCard:hover {
+  box-shadow: 0.25rem 0.25rem 0.25rem #E42575;
+  transform: translateY(-0.25rem);
 }
 
 .projectCard img {
@@ -18,16 +24,9 @@
   border-radius: 1rem;
 }
 
-.projectCard a {
-  transition: 0.2s;
-  border-radius: 1rem;
-  height: 500px;
-  padding: 0;
-}
-
-.projectCard a:hover {
-  transform: translateY(-0.25rem);
-  box-shadow: 0 0.5rem 0.25rem -0.25rem #E42575;
+.projects a {
+  text-decoration: none;
+  color: white;
 }
 
 .projectCard h3 {

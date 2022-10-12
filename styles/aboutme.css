@@ -1,0 +1,21 @@
+.infocard-2 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: 5rem auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1C1227;
+  padding: 2rem 2rem;
+  border-radius: 0.75rem;
+}
+
+.infocard-2 p {
+  font-size: 1.08rem;
+  font-weight: 400;
+}
+
+.infocard-2 h3 {
+  font-size: 1.75rem;
+  margin-top: 0;
+}

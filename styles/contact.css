@@ -1,34 +1,66 @@
-.navbar {
-  font-family: 'Source Sans Pro', sans-serif;
+.contactCard {
+  width: 25%;
   display: flex;
+  flex-direction: column;
+  margin: 5rem auto;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 2rem;
+  background-color: #1C1227;
+  padding: 2rem 2rem;
+  border-radius: 0.75rem;
 }
 
-.navbar a {
-  text-decoration: none;
+.contactCard h3 {
+  font-size: 1.75rem;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+#email {
+  margin: 0;
+  box-sizing: border-box;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+  background-color: #1C1227;
+  padding: 0.5rem;
+  width: 100%;
   color: white;
-  font-size: 1.3rem;
-  margin: 0 0.6rem;
+}
+
+#message {
+  margin: 0;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 15rem;
+  border: 1px solid white;
+  background-color: #1C1227;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  resize: none;
+  color: white;
+}
+
+#submit {
+  border: 0.5px solid white;
+  border-radius: 0.5rem;
+  background-color: #09080d;
+  color: white;
+  padding: 0.75rem 4rem;
   transition: all 0.25s;
 }
 
-.navbar a:hover {
-  color: #E42575;
-  text-decoration:underline;
-}
-
-.navbar h3 {
-  font-size: 2rem;
-  margin-left: 0.6rem;
-}
-
-.navbar img {
-  border-radius: 50%;
-}
-
-.navbar-me {
-  display: flex;
-  align-items: center;
+#submit:hover {
+  cursor: pointer;
+  transform: translateY(-0.2rem);
+  box-shadow: 0 0.5rem 0.25rem -0.25rem #E42575;
 }

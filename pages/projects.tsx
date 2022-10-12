@@ -20,7 +20,7 @@ export default function Contact() {
   return (
     <div>
       <Head>
-        <title>Contact</title>
+        <title>Projects</title>
       </Head>
       <Navbar />
       <section className="card-list" >
