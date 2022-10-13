@@ -37,13 +37,12 @@
 .cardImg img {
   object-fit: cover;
   border-radius: 0.75rem;
-  width: 100% !important;
-  height: auto !important;
-  margin-right: 2rem !important;
+  margin-right: 2rem;
 }
 
 .info {
   width: 60%;
+  margin-left: 2rem;
 }
 
 .info h4 {
