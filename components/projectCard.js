@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 
 export default function Projectcard({ title, url, path, description, skills }) {
+
   return (
     <div className='projects'>
       <a href={`${url}`} target="_blank" rel="noreferrer">
@@ -21,4 +22,5 @@ export default function Projectcard({ title, url, path, description, skills }) {
       </a>
     </div>
   )
+
 }
