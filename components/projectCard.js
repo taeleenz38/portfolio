@@ -12,6 +12,8 @@ export default function Projectcard({ title, url, path, description, skills }) {
             alt="profilepic"
             width={500}
             height={500}
+            unoptimized={true}
+            priority
           />
           <p>{description}</p>
           <p>{skills}</p>

@@ -17,6 +17,7 @@ export default function Index() {
             alt="profilepic"
             width={400}
             height={400}
+            priority
           />
         </div>
         <div className="info">
