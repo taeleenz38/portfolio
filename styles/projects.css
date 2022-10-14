@@ -1,6 +1,12 @@
 .card-list {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  margin: 50px auto;
+  width: 95%;
+  gap: 75px;
+  align-items: center;
+  justify-items: center;
   margin-top: 1rem;
 }
 
@@ -22,6 +28,8 @@
 
 .projectCard img {
   object-fit: cover;
+  width: 400px !important;
+  height: 400px !important;
   border-radius: 1rem;
 }
 
@@ -41,7 +49,14 @@
   padding: 0;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1550px) {
+  .card-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 1300px) {
   .projectCard img {
     width: 380px !important;
     height: 380px !important;
@@ -50,8 +65,8 @@
 
 @media (max-width: 1000px) {
   .projectCard img {
-    width: 240px !important;
-    height: 240px !important;
+    width: 300px !important;
+    height: 300px !important;
   }
   .projectCard h3 {
     margin-top: 0;

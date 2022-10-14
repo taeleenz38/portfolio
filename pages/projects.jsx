@@ -3,7 +3,6 @@ import Navbar from 'components/navbar'
 import Head from 'next/head'
 import Projectcard from 'components/projectCard'
 import data from 'components/data'
-import Link from 'next/link'
 
 export default function Contact() {
 
