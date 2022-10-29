@@ -67,6 +67,7 @@
 
 @media (max-width: 768px) {
   .contactCard {
+    margin: 1.5rem auto;
     width: 320px;
     padding: 1rem;
   }

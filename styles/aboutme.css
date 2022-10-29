@@ -30,7 +30,11 @@
   }
 }
 
-@media (max-width: 455px) {
+@media (max-width: 470px) {
+  .infocard-2 {
+    margin: 1.5rem auto;
+  }
+
   .infocard-2 h3 {
     font-size: 1.15rem;
   }
