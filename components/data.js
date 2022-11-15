@@ -4,7 +4,7 @@ export default [
     id: 1,
     title: "FTX Classic",
     url: "https://ftxclassic.io/",
-    path: "FTTC.png",
+    path: "FTTC.jpg",
     description: "Responsive website (Web3 / ERC20 token)",
     skills: "React.js (Next.js), HTML, CSS and Javascript"
   },
@@ -12,7 +12,7 @@ export default [
     id: 2,
     title: "Delicious Labs",
     url: "https://deliciouslabs.io/",
-    path: "delicious-labs.png",
+    path: "labs.png",
     description: "Responsive website (Web3 / NFT DAO)",
     skills: "React.js, HTML, CSS and Javascript"
   },
