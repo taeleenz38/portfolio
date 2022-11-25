@@ -22,7 +22,7 @@ export default [
     url: "https://www.music-mates.com/",
     path: "musicmates.png",
     description: "Mobile-only application (social platform)",
-    skills: "Ruby on Rails, HTML, CSS, Sass and Javascript"
+    skills: "Ruby on Rails, HTML, PostgreSQL, Sass, Javascript and Heroku"
   },
   {
     id: 4,
@@ -30,6 +30,6 @@ export default [
     url: "https://come-out-of-the-closet.herokuapp.com/",
     path: "comeoutofthecloset.png",
     description: "Desktop-only application (online marketplace)",
-    skills: "Ruby on Rails, HTML, CSS, Sass and Javascript"
+    skills: "Ruby on Rails, HTML, PostgreSQL, Sass, Javascript and Heroku"
   }
 ]
