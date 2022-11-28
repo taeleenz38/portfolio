@@ -2,6 +2,14 @@
 export default [
   {
     id: 1,
+    title: "Azuki Mint",
+    url: "https://azuki-mint.vercel.app/",
+    path: "azuki-mint.jpg",
+    description: "Responsive website (Web3 / NFT mint site)",
+    skills: "React.js (Next.js), HTML, Tailwind CSS and Typescript"
+  },
+  {
+    id: 2,
     title: "FTX Classic",
     url: "https://ftxclassic.io/",
     path: "FTTC.jpg",
@@ -9,7 +17,7 @@ export default [
     skills: "React.js (Next.js), HTML, CSS and Javascript"
   },
   {
-    id: 2,
+    id: 3,
     title: "Delicious Labs",
     url: "https://deliciouslabs.io/",
     path: "labs.png",
@@ -17,7 +25,7 @@ export default [
     skills: "React.js, HTML, CSS and Javascript"
   },
   {
-    id: 3,
+    id: 4,
     title: "Music Mates",
     url: "https://www.music-mates.com/",
     path: "musicmates.png",
@@ -25,7 +33,7 @@ export default [
     skills: "Ruby on Rails, HTML, PostgreSQL, Sass, Javascript and Heroku"
   },
   {
-    id: 4,
+    id: 5,
     title: "Come Out of The Closet",
     url: "https://come-out-of-the-closet.herokuapp.com/",
     path: "comeoutofthecloset.png",
