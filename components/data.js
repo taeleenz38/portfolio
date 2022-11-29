@@ -2,11 +2,11 @@
 export default [
   {
     id: 1,
-    title: "Azuki Mint",
-    url: "https://azuki-mint.vercel.app/",
+    title: "Puri Marketplace",
+    url: "https://puri.vercel.app/",
     path: "azuki-mint.jpg",
     description: "Responsive website (Web3 / NFT mint site)",
-    skills: "React.js (Next.js), HTML, Tailwind CSS and Typescript"
+    skills: "React.js (Next.js), HTML, Tailwind CSS, Sanity, Third-web and Typescript"
   },
   {
     id: 2,
