@@ -2,6 +2,14 @@
 export default [
   {
     id: 1,
+    title: "Bored Token",
+    url: "https://www.boredtoken.io/",
+    path: "boredtoken.jpg",
+    description: "Responsive website (Web3 / ERC20 token)",
+    skills: "Next.js, HTML, Tailwind CSS and Javascript"
+  },
+  {
+    id: 2,
     title: "Puri Marketplace",
     url: "https://puri.vercel.app/",
     path: "azuki-mint.jpg",
@@ -9,7 +17,7 @@ export default [
     skills: "Next.js, HTML, Tailwind CSS, Sanity and Typescript"
   },
   {
-    id: 2,
+    id: 3,
     title: "FTX Classic",
     url: "https://ftxclassic.io/",
     path: "FTTC.jpg",
@@ -17,7 +25,7 @@ export default [
     skills: "Next.js, HTML, CSS and Javascript"
   },
   {
-    id: 3,
+    id: 4,
     title: "Delicious Labs",
     url: "https://deliciouslabs.io/",
     path: "labs.png",
@@ -25,7 +33,7 @@ export default [
     skills: "React.js, HTML, CSS and Javascript"
   },
   {
-    id: 4,
+    id: 5,
     title: "Music Mates",
     url: "https://www.music-mates.com/",
     path: "musicmates.png",
@@ -33,7 +41,7 @@ export default [
     skills: "Ruby on Rails, HTML, PostgreSQL, Sass and Javascript"
   },
   {
-    id: 5,
+    id: 6,
     title: "Come Out of The Closet",
     url: "https://come-out-of-the-closet.herokuapp.com/",
     path: "comeoutofthecloset.png",
