@@ -4,7 +4,7 @@ export default [
     id: 1,
     title: "Bored Token",
     url: "https://www.boredtoken.io/",
-    path: "boredtoken.jpg",
+    path: "boredtoken.JPG",
     description: "Responsive website (Web3 / ERC20 token)",
     skills: "Next.js, HTML, Tailwind CSS and Javascript"
   },
