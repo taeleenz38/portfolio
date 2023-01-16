@@ -39,13 +39,15 @@ export default [
     path: "musicmates.png",
     description: "Mobile-only application (social platform)",
     skills: "Ruby on Rails, HTML, PostgreSQL, Sass and Javascript"
-  },
-  {
-    id: 6,
-    title: "Come Out of The Closet",
-    url: "https://come-out-of-the-closet.herokuapp.com/",
-    path: "comeoutofthecloset.png",
-    description: "Desktop-only application (online marketplace)",
-    skills: "Ruby on Rails, HTML, PostgreSQL, Sass and Javascript"
   }
 ]
+
+// ,
+//   {
+//     id: 6,
+//     title: "Come Out of The Closet",
+//     url: "https://come-out-of-the-closet.herokuapp.com/",
+//     path: "comeoutofthecloset.png",
+//     description: "Desktop-only application (online marketplace)",
+//     skills: "Ruby on Rails, HTML, PostgreSQL, Sass and Javascript"
+//   }
