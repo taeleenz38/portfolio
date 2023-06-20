@@ -8,7 +8,6 @@ export default function Navbar0() {
       <div>
         <Link href="/projects">Projects</Link>
         <Link href="/aboutme">About Me</Link>
-        <Link href="/contact">Contact</Link>
       </div>
     </div>
   )
