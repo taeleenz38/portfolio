@@ -2,11 +2,11 @@
 export default [
   {
     id: 1,
-    title: "Bored Token",
-    url: "https://www.boredtoken.io/",
-    path: "boredtoken.JPG",
-    description: "Responsive website (Web3 / ERC20 token)",
-    skills: "Next.js, HTML, Tailwind CSS and Javascript"
+    title: "0xTech Shop",
+    url: "https://0xtech.vercel.app",
+    path: "0XTECH.jpg",
+    description: "Responsive website (ecommerce website)",
+    skills: "React.js, HTML, CSS and Javascript"
   },
   {
     id: 2,
@@ -18,6 +18,14 @@ export default [
   },
   {
     id: 3,
+    title: "Bored Token",
+    url: "https://www.boredtoken.io/",
+    path: "boredtoken.JPG",
+    description: "Responsive website (Web3 / ERC20 token)",
+    skills: "Next.js, HTML, Tailwind CSS and Javascript"
+  },
+  {
+    id: 4,
     title: "FTX Classic",
     url: "https://ftxclassic.io/",
     path: "FTTC.jpg",
@@ -25,7 +33,7 @@ export default [
     skills: "Next.js, HTML, CSS and Javascript"
   },
   {
-    id: 4,
+    id: 5,
     title: "Delicious Labs",
     url: "https://deliciouslabs.io/",
     path: "labs.png",
@@ -33,7 +41,7 @@ export default [
     skills: "React.js, HTML, CSS and Javascript"
   },
   {
-    id: 5,
+    id: 6,
     title: "Music Mates",
     url: "https://www.music-mates.com/",
     path: "musicmates.png",
