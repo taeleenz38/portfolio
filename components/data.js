@@ -2,6 +2,14 @@
 export default [
   {
     id: 1,
+    title: "Web3 Scan",
+    url: "https://web3-scan.vercel.app",
+    path: "WEB3SCAN.jpg",
+    description: "Responsive website (crypto tracker)",
+    skills: "React.js, HTML, CSS and Javascript"
+  },
+  {
+    id: 2,
     title: "0xTech Shop",
     url: "https://0xtech.vercel.app",
     path: "0XTECH.jpg",
@@ -9,7 +17,7 @@ export default [
     skills: "React.js, HTML, CSS and Javascript"
   },
   {
-    id: 2,
+    id: 3,
     title: "Puri Marketplace",
     url: "https://puri.vercel.app/",
     path: "azuki-mint.jpg",
@@ -17,7 +25,7 @@ export default [
     skills: "Next.js, HTML, Tailwind CSS, Sanity and Typescript"
   },
   {
-    id: 3,
+    id: 4,
     title: "Bored Token",
     url: "https://www.boredtoken.io/",
     path: "boredtoken.JPG",
@@ -25,7 +33,7 @@ export default [
     skills: "Next.js, HTML, Tailwind CSS and Javascript"
   },
   {
-    id: 4,
+    id: 5,
     title: "FTX Classic",
     url: "https://ftxclassic.io/",
     path: "FTTC.jpg",
@@ -33,7 +41,7 @@ export default [
     skills: "Next.js, HTML, CSS and Javascript"
   },
   {
-    id: 5,
+    id: 6,
     title: "Delicious Labs",
     url: "https://deliciouslabs.io/",
     path: "labs.png",
@@ -41,7 +49,7 @@ export default [
     skills: "React.js, HTML, CSS and Javascript"
   },
   {
-    id: 6,
+    id: 7,
     title: "Music Mates",
     url: "https://www.music-mates.com/",
     path: "musicmates.png",
